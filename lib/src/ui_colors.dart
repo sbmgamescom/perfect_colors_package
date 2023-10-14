@@ -5,23 +5,31 @@ abstract class UIColors {
   static const Color textColorTextSecondary = Color(0xff919399);
   static const Color textColorLink = Color(0xff005bd1);
   static const Color textColorLinkVisited = Color(0xff528fdf);
+
   static const Color icon = Color(0xff2c2d2e);
   static const Color iconSecondary = Color(0xffbfc1c7);
   static const Color iconsColorIconContrast = Color(0xffffffff);
-  static const Color mainColorPrimary = Color(0xff005ff9);
-  static const Color mainColorSecondary = Color(0xffff9e00);
-  static const Color mainColorError = Color(0xffed0a34);
-  static const Color mainColorSuccess = Color(0xff0dc268);
+  //электрический синий наше всё
+  static const Color primary = Color(0xff005ff9);
+  //второй корпоративный цвет
+  static const Color secondary = Color(0xffff9e00);
+  //цвет ошибок
+  static const Color error = Color(0xffed0a34);
+  //цвет успеха
+  static const Color success = Color(0xff0dc268);
+  //цвет для уведомлений. не путать с color-secondary
   static const Color notify = Color(0xffff9e00);
-  static const Color mainColorRating = Color(0xffffd400);
-  static const Color mainColorBg = Color(0xffffffff);
-  static const Color mainColorBgSecondary = Color(0x0f00103d);
-  static const Color mainColorBgSecondaryHover = Color(0x1a00103d);
-  static const Color mainColorBgSecondaryActive = Color(0x2400103d);
-  static const Color mainColorBgContrast = Color(0xff2c2d2e);
-  static const Color mainColorBgThumbnail = Color(0xff00103d);
-  static const Color mainColorBgWarning = Color(0xfffffce0);
-  static const Color mainColorTrueBlack = Color(0xff000000);
+
+  static const Color rating = Color(0xffffd400);
+  static const Color bg = Color(0xffffffff);
+  static const Color bgSecondary = Color(0x0f00103d);
+  static const Color bgSecondaryHover = Color(0x1a00103d);
+  static const Color bgSecondaryActive = Color(0x2400103d);
+  static const Color bgContrast = Color(0xff2c2d2e);
+  static const Color bgThumbnail = Color(0xff00103d);
+  static const Color bgWarning = Color(0xfffffce0);
+  static const Color trueBlack = Color(0xff000000);
+
   static const Color primaryAuto = Color(0xffff4f00);
   static const Color primaryDeti = Color(0xffca9cf4);
   static const Color primaryDobro = Color(0xffffd400);
