@@ -9,26 +9,21 @@ abstract class UIColors {
   static const Color icon = Color(0xff2c2d2e);
   static const Color iconSecondary = Color(0xffbfc1c7);
   static const Color iconsColorIconContrast = Color(0xffffffff);
-  //электрический синий наше всё
-  static const Color primary = Color(0xff005ff9);
-  //второй корпоративный цвет
-  static const Color secondary = Color(0xffff9e00);
-  //цвет ошибок
-  static const Color error = Color(0xffed0a34);
-  //цвет успеха
-  static const Color success = Color(0xff0dc268);
-  //цвет для уведомлений. не путать с color-secondary
-  static const Color notify = Color(0xffff9e00);
 
-  static const Color rating = Color(0xffffd400);
-  static const Color bg = Color(0xffffffff);
-  static const Color bgSecondary = Color(0x0f00103d);
-  static const Color bgSecondaryHover = Color(0x1a00103d);
-  static const Color bgSecondaryActive = Color(0x2400103d);
-  static const Color bgContrast = Color(0xff2c2d2e);
-  static const Color bgThumbnail = Color(0xff00103d);
-  static const Color bgWarning = Color(0xfffffce0);
-  static const Color trueBlack = Color(0xff000000);
+  static const Color mainPrimary = Color(0xff005ff9);
+  static const Color mainSecondary = Color(0xffff9e00);
+  static const Color mainError = Color(0xffed0a34);
+  static const Color mainSuccess = Color(0xff0dc268);
+  static const Color mainNotify = Color(0xffff9e00);
+  static const Color mainRating = Color(0xffffd400);
+  static const Color mainBg = Color(0xffffffff);
+  static const Color mainBgSecondary = Color(0x0f00103d);
+  static const Color mainBgSecondaryHover = Color(0x1a00103d);
+  static const Color mainBgSecondaryActive = Color(0x2400103d);
+  static const Color mainBgContrast = Color(0xff2c2d2e);
+  static const Color mainBgThumbnail = Color(0xff00103d);
+  static const Color mainBgWarning = Color(0xfffffce0);
+  static const Color mainTrueBlack = Color(0xff000000);
 
   static const Color primaryAuto = Color(0xffff4f00);
   static const Color primaryDeti = Color(0xffca9cf4);
